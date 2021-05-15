@@ -13,6 +13,7 @@
 		1290CCC126501FE800EDEA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1290CCBF26501FE800EDEA8C /* Main.storyboard */; };
 		1290CCC326501FEF00EDEA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1290CCC226501FEF00EDEA8C /* Assets.xcassets */; };
 		1290CCC626501FEF00EDEA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1290CCC426501FEF00EDEA8C /* LaunchScreen.storyboard */; };
+		1290CCCF265021A000EDEA8C /* PriceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1290CCCE265021A000EDEA8C /* PriceViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1290CCC226501FEF00EDEA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1290CCC526501FEF00EDEA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1290CCC726501FEF00EDEA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1290CCCE265021A000EDEA8C /* PriceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1290CCB926501FE800EDEA8C /* AppDelegate.swift */,
 				1290CCBB26501FE800EDEA8C /* SceneDelegate.swift */,
 				1290CCBD26501FE800EDEA8C /* ViewController.swift */,
+				1290CCCE265021A000EDEA8C /* PriceViewCell.swift */,
 				1290CCBF26501FE800EDEA8C /* Main.storyboard */,
 				1290CCC226501FEF00EDEA8C /* Assets.xcassets */,
 				1290CCC426501FEF00EDEA8C /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1290CCCF265021A000EDEA8C /* PriceViewCell.swift in Sources */,
 				1290CCBE26501FE800EDEA8C /* ViewController.swift in Sources */,
 				1290CCBA26501FE800EDEA8C /* AppDelegate.swift in Sources */,
 				1290CCBC26501FE800EDEA8C /* SceneDelegate.swift in Sources */,
