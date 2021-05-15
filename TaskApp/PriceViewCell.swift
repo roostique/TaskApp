@@ -11,17 +11,11 @@ class PriceViewCell: UITableViewCell {
     
     let pricesObj = ViewController()
     
-    @IBOutlet weak var itemLbl: UILabel!
     @IBOutlet weak var priceLbl: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        for i in pricesObj.prices.enumerated() {
-            priceLbl.text = "Item: \(i)"
-        }
-       
-        
+
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
